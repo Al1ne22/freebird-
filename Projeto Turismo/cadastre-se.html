@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Freedom</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/paletas-cores.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-roxo">
+            <div class="container">
+                <a href="index.html" class="navbar-brand" aria-hidden="true"><img src="images/logos/FREEDOM.png"
+                        width="110px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="destino.html">Destino</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="promoções.html">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-warning" type="submit">Buscar</button>
+                        &nbsp;
+                        <a class="btn btn-outline-warning" aria-current="page" href="login.html">Login</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <section class="bannercontato">
+            <div class="container py-5">
+                <h1 class="pb-3 text-center text-warning">Seja Bem-Vindo!</h1>
+                <form class="">
+                    <div class="box">
+                        <form action="">
+                            <fieldset>
+                                <legend><b>Formulario de cadastro</b></legend>
+                                <br>
+                                <div class="inputBox">
+                                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                                    <label for="nome" class="LabelInput">Nome Completo</label>
+                                </div>
+                                <br>
+
+                                <div class="inputBox">
+                                    <input type="text" name="email" id="email" class="inputUser" required>
+                                    <label for="nome" class="LabelInput">E-mail</label>
+                                </div>
+                                <br>
+
+                                <div class="inputBox">
+                                    <input type="tel" name="Telefone" id="Telefone" class="inputUser" required>
+                                    <label for="nome" class="LabelInput">Telefone</label>
+                                    <br>
+                                    <br>
+                                    <div class="inputBox">
+                                        <input type="password" name="Senha" id="Senha" class="inputUser" required>
+                                        <label for="nome" class="LabelInput">Senha</label>
+                                        <br>
+
+                                        <p>Sexo:</p>
+                                        <input type="radio" id="feminino" name="genêro" value="feminino" required>
+                                        <label for="feminino">Feminino</label>
+                                        <br>
+
+                                        <input type="radio" id="masculino" name="genêro" value="masculino" required>
+                                        <label for="masculino">Masculino</label>
+                                        <br>
+
+                                        <input type="radio" id="Outro" name="genêro" value="Outro" required>
+                                        <label for="Outro">Outro</label>
+                                        <br>
+                                        <br>
+
+                                        <label for="data_nascimento"><b>Data de Nascimento</b></label>
+                                        <input type="date" name="data_nascimento" id="data_nascimento" required>
+                                    </div>
+                                    <br>
+
+                                    <div class="inputBox">
+                                        <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                                        <label for="cidade" class="LabelInput">Cidade</label>
+                                    </div>
+                                    <br>
+
+                                    <div class="inputBox">
+                                        <input type="text" name="estado" id="estado" class="inputUser" required>
+                                        <label for="estado" class="LabelInput">Estado</label>
+                                    </div>
+                                    <br>
+
+                                    <div class="inputBox">
+                                        <input type="text" name="endereço" id="endereço" class="inputUser" required>
+                                        <label for="endereço" class="LabelInput">Endereço</label>
+                                    </div>
+                                    <br>
+
+                                    <input type="submit" name="submit" id="submit">
+                                    <br>
+                                    <br>
+
+                                    <a href="index.html">voltar a tela inicial</a>
+
+
+                            </fieldset>
+                        </form>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-roxo">
+        <div class="container text-center py-5">
+            <img src="images/logos/FREEDOM.png" width="100px" alt="logo rodapé"></a>
+            <div class="bg-novoroxo rounded-pill w-75 p-3 mx-auto">
+                <h3>Formas de Pagamento</h3>
+                <img width="80px" src="images/logos/logo.elo.png" alt="logo Elo" class="logos">
+                <img width="80px" src="images/logos/logo.mastercard.png" alt="logo Mastercard" class="logos">
+                <img width="80px" src="images/logos/logo.visa.png" alt="logo Visa" class="logos">
+                <img width="80px" src="images/logos/logo.pix.png" alt="logo Pix" class="logos">
+            </div>
+
+            <div class="icons-rodapé">
+                <h3 class="text-warning">Siga-nos!</h3>
+                <a href="https://www.facebook.com/" class="icon-facebook">
+                    <img src="images/icons/facebook.png" width="50px" alt="">
+                </a>
+                <a href="https://www.instagram.com/" class="icon-intagram">
+                    <img src="images/icons/instagram.png" width="50px" alt="">
+                </a>
+                <a href="https://www.twitter.com/" class="icon-twitter">
+                    <img src="images/icons/twitter.png" width="50px" alt="">
+                </a>
+                <a href="https://www.youtube.com/" class="icon-youtube">
+                    <img src="images/icons/youtube.png" width="50px" alt="">
+                </a>
+            </div>
+            <br>
+            <p><strong> BIRD FREE - turismo 2023</strong></p>
+        </div>
+    </footer>
+</body>
+
+
+</html>
